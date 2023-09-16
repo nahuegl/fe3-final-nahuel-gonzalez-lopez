@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from './utils/global.context';
-import '../Styles/navbarStyles.css';
+import '../Styles/navbar.css';
 
 const Navbar = () => {
   const { stateTheme, dispatchTheme } = useGlobalContext();

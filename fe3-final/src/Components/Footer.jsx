@@ -1,10 +1,10 @@
 import React from "react";
-import "../Styles/footerStyles.css";
+import "../Styles/footer.css";
 
 const Footer = () => {
   return (
     <footer>
-      <div className='footer-by'><p>Desarrollado por: Bianca Olsson</p></div>
+      <div className='footer-by'><p>Creado por: Nahuel Gonzalez Lopez</p></div>
       <div className='footer-logo-and-icons'>
         <img className='footer-logo' src="/images/DH.png" alt="" width={200}/>
         <div>

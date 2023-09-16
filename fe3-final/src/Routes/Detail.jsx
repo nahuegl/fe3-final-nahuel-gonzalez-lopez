@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useGlobalContext } from '../Components/utils/global.context';
-import '../Styles/detailStyles.css';
 
 const Detail = () => {
   const { apiState } = useGlobalContext();

@@ -2,8 +2,6 @@ import React from 'react';
 import Card from '../Components/Card';
 import { useGlobalContext } from '../Components/utils/global.context';
 
-import '../Styles/favsStyles.css';
-
 const Favs = () => {
   const { setArr } = useGlobalContext();
   const favourites = JSON.parse(localStorage.getItem('arr')) || [];
