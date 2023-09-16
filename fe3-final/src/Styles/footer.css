@@ -1,0 +1,55 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  
+  footer > img {
+    width: 200px;
+  }
+  
+  .footer-by {
+    width: 100%;
+    height: 25px;
+    background-color: #1d2037;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .footer-logo-and-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .footer-icons {
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    filter: brightness(100%); /* Cambiado el valor predeterminado */
+    transition: filter 0.3s ease-in-out; /* Agregada una transición para suavizar el cambio de brillo */
+  }
+  
+  .footer-icons:hover {
+    filter: brightness(50%);
+  }
+  
+  .dark .footer-icons {
+    filter: brightness(200%);
+  }
+  
+  .dark .footer-logo {
+    filter: brightness(100%) contrast(0%); /* Ajustada la propiedad de contraste */
+  }
+  
+  .dark .footer-icons:hover {
+    filter: brightness(50%);
+  }
+  

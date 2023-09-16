@@ -1,0 +1,46 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    align-items: center;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: none; /* Simplificado, elimina la propiedad border */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.163);
+  }
+  
+  .input {
+    text-align: center;
+    width: 90%;
+    height: 56px;
+    font-size: 14px;
+  }
+  
+  .input input {
+    text-align: center;
+    width: 90%;
+    font-size: 18px;
+    border: none; /* Agregado, elimina el borde predeterminado del input */
+    outline: none; /* Agregado, elimina el resaltado de enfoque */
+  }
+  
+  .input input:hover {
+    border: solid rgba(20, 89, 20, 0.826);
+  }
+  
+  .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
